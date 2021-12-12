@@ -3,7 +3,7 @@ use std::fs;
 fn main() {
     println!("Hello, world!");
 
-    let sonar_report = fs::read_to_string("./input")
+    let sonar_report = fs::read_to_string("../input")
         .expect("Couldn't read the file.");
 
     let lines = sonar_report.lines();
